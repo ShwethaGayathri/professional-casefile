@@ -1,0 +1,191 @@
+// ============================================
+// SINGLE SOURCE OF TRUTH — edit only this file
+// ============================================
+
+export const caseStatus = {
+  status: "OPEN" as "OPEN" | "CLOSED",
+  statusLabel: "Accepting Opportunities",
+  companyHired: "",
+  closedDate: "",
+}
+
+export const subject = {
+  name: "Gayathri U",
+  title: "Sr. Software Engineer",
+  tagline: "Operates across data pipelines and user interfaces. Considered extremely capable.",
+  location: "Bengaluru, Karnataka, IN",
+  email: "gayathrisrinivasan@gmail.com",
+  github: "https://github.com/ShwethaGayathri",
+  linkedin: "https://linkedin.com/in/u-gayathri",
+  photo: "/photo.jpg",
+  yearsActive: "7",
+}
+
+export const education = [
+  {
+    id: "mtech",
+    degree: "M.Tech — Data Science",
+    institution: "BITS Pilani",
+    year: "2024",
+    cgpa: "9.5",
+    detail: "Specialised in machine learning and data engineering. Developed ML model for eye disease detection using colour fundus images.",
+    highlight: "9.5 CGPA",
+  },
+  {
+    id: "be",
+    degree: "B.E. — Computer Science",
+    institution: "Kumaraguru College of Technology, Coimbatore",
+    year: "2019",
+    cgpa: "8.5",
+    detail: "2x Mahatma Gandhi Scholarship winner for academic excellence.",
+    highlight: "8.5 CGPA · 2× Scholarship",
+  },
+]
+
+export const publication = {
+  title: "TGNN-based Merchant Fraud Spike Prediction in Payment Networks",
+  type: "Defensive Publication",
+  publisher: "Technical Disclosure Commons",
+  year: "2026",
+  url: "https://www.tdcommons.org/dpubs_series/11381/",
+  coAuthor: "Sitaram Panigrahi",
+  summary: "A system and method for predicting merchant-level fraud spikes in payment transaction networks using Temporal Graph Neural Networks.",
+}
+
+export const experience = [
+  {
+    id: "visa",
+    company: "Visa",
+    role: "Senior Software Engineer",
+    type: "Full-time · Hybrid",
+    start: "Aug 2024",
+    end: "Present",
+    location: "Bengaluru, IN",
+    status: "ACTIVE",
+    bullets: [
+      "Built a GenAI agent as first point of contact for production defects — significantly reduced incidents escalated to dev team, enabling CS to resolve client-reported issues independently",
+      "Full stack development on Visa Risk Manager — a large-scale payment fraud detection platform",
+      "Co-authored defensive publication on TGNN-based merchant fraud spike prediction in payment networks",
+      "Contributed across the stack on multiple features for the Risk Manager platform",
+    ],
+    tech: ["React", "Python", "FastAPI", "GenAI", "TGNN", "Kafka", "Java", "Spring Boot", "MySQL"],
+  },
+  {
+    id: "avaya",
+    company: "Avaya",
+    role: "Full Stack Developer",
+    type: "Full-time · On-site",
+    start: "Aug 2023",
+    end: "Aug 2024",
+    location: "Bengaluru, IN",
+    status: "CLOSED",
+    bullets: [
+      "Built unit testing frameworks using Jasmine for Angular and JUnit for Java — improved code reliability across the codebase",
+      "Crafted end-to-end test cases using Playwright for critical user flows",
+      "Optimised performance of existing software systems and led onboarding process improvements for new team members",
+    ],
+    tech: ["Angular", "Java 8", "Spring Boot", "TypeScript", "Playwright", "Jasmine", "JUnit", "SQL", "Azure"],
+  },
+  {
+    id: "cognizant",
+    company: "Cognizant",
+    role: "Lead Developer → Programmer Analyst Trainee",
+    type: "Full-time · 4 yrs 1 mo",
+    start: "Aug 2019",
+    end: "Aug 2023",
+    location: "Bengaluru, IN",
+    status: "CLOSED",
+    bullets: [
+      "Independently learned Angular in weeks and led full migration of a legacy TMG Health internal tool to a modern Single Page Application with JWT authentication and Spring MVC",
+      "Progressed through 4 roles — Trainee → Analyst → Software Engineer → Lead Developer — recognized for consistently high performance",
+      "Built and maintained internal healthcare tooling used across the organization",
+    ],
+    tech: ["Angular", "Java", "Spring Boot", "Spring MVC", "JWT", "SQL Server", "Apache Camel", "Spring Security", "Bootstrap"],
+  },
+  {
+    id: "siemens",
+    company: "Siemens",
+    role: "Intern",
+    type: "Internship",
+    start: "Jan 2019",
+    end: "Mar 2019",
+    location: "Bengaluru, IN",
+    status: "CLOSED",
+    bullets: [
+      "Gained hands-on industry exposure during final year of undergraduate studies",
+    ],
+    tech: [],
+  },
+]
+
+export const projects = [
+  {
+    id: "babelmate",
+    name: "BabelMate",
+    description: "Multilingual translation chatbot supporting real-time conversation across languages",
+    status: "LIVE",
+    tech: ["JavaScript", "GenAI"],
+    github: "https://github.com/ShwethaGayathri/BabelMate",
+    link: "",
+    impact: "Publicly available on GitHub",
+    category: "GenAI",
+  },
+  {
+    id: "tender-summarization",
+    name: "Tender Summarization Engine",
+    description: "GenAI-powered tool that reads and summarizes complex government tender documents into actionable briefs",
+    status: "IN PROGRESS",
+    tech: ["Python", "GenAI", "FastAPI"],
+    github: "",
+    link: "",
+    impact: "Codebase complete — GitHub upload pending",
+    category: "GenAI",
+  },
+  {
+    id: "eye-disease",
+    name: "Eye Disease Detection Model",
+    description: "ML model trained on colour fundus images to detect eye diseases — developed during MTech research",
+    status: "RESEARCH",
+    tech: ["Python", "ML", "Computer Vision"],
+    github: "",
+    link: "",
+    impact: "Full documentation available — code to be published",
+    category: "ML",
+  },
+  {
+    id: "blog",
+    name: "Portfolio Blog",
+    description: "Personal blog and portfolio built in TypeScript",
+    status: "LIVE",
+    tech: ["TypeScript"],
+    github: "https://github.com/ShwethaGayathri/blog",
+    link: "",
+    impact: "",
+    category: "Web",
+  },
+]
+
+export const skills = [
+  { name: "Angular", level: 90, category: "Frontend" },
+  { name: "React", level: 80, category: "Frontend" },
+  { name: "TypeScript", level: 85, category: "Frontend" },
+  { name: "Bootstrap", level: 80, category: "Frontend" },
+  { name: "Java", level: 85, category: "Backend" },
+  { name: "Spring Boot", level: 85, category: "Backend" },
+  { name: "Python", level: 80, category: "Backend" },
+  { name: "FastAPI", level: 75, category: "Backend" },
+  { name: "Kafka", level: 70, category: "Backend" },
+  { name: "MySQL", level: 80, category: "Database" },
+  { name: "DB2", level: 70, category: "Database" },
+  { name: "SQL Server", level: 75, category: "Database" },
+  { name: "Hadoop", level: 65, category: "Data" },
+  { name: "Spark", level: 65, category: "Data" },
+  { name: "Tableau", level: 70, category: "Data" },
+  { name: "GenAI", level: 80, category: "AI/ML" },
+  { name: "ML Models", level: 75, category: "AI/ML" },
+  { name: "Playwright", level: 75, category: "Testing" },
+  { name: "Jasmine", level: 75, category: "Testing" },
+  { name: "JUnit", level: 75, category: "Testing" },
+  { name: "Git", level: 85, category: "Tools" },
+  { name: "Jira", level: 80, category: "Tools" },
+]
