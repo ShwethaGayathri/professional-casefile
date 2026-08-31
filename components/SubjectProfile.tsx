@@ -88,7 +88,7 @@ export default function SubjectProfile() {
                 key={item.label}
                 className="flex justify-between items-center border-b border-[#1e1c18] pb-2 last:border-0 last:pb-0"
               >
-                <span className="text-[9px] tracking-[2px] text-[#4a4438] uppercase">
+                <span className="text-[9px] tracking-[2px] text-[#6a6458] uppercase">
                   {item.label}
                 </span>
 
@@ -101,7 +101,7 @@ export default function SubjectProfile() {
 
           {/* Contact links */}
           <div className="border border-[#2a2720] bg-[#121109] p-4 space-y-2">
-            <p className="text-[9px] tracking-[3px] text-[#4a4438] uppercase mb-3">
+            <p className="text-[9px] tracking-[3px] text-[#6a6458] uppercase mb-3">
               Contact
             </p>
 
@@ -140,7 +140,7 @@ export default function SubjectProfile() {
 
           {/* Tagline */}
           <div className="border border-[#2a2720] bg-[#121109] p-4">
-            <p className="text-[9px] tracking-[3px] text-[#4a4438] uppercase mb-2">
+            <p className="text-[9px] tracking-[3px] text-[#6a6458] uppercase mb-2">
               Field Assessment
             </p>
 
@@ -164,14 +164,14 @@ export default function SubjectProfile() {
               {publication.title}
             </a>
 
-            <p className="text-[9px] text-[#4a4438] mt-1">
+            <p className="text-[9px] text-[#6a6458] mt-1">
               {publication.publisher} · {publication.year} · w/ {publication.coAuthor}
             </p>
           </div>
 
           {/* Education */}
           <div className="border border-[#2a2720] bg-[#121109] p-4">
-            <p className="text-[9px] tracking-[3px] text-[#4a4438] uppercase mb-3">
+            <p className="text-[9px] tracking-[3px] text-[#6a6458] uppercase mb-3">
               Academic Record
             </p>
 
@@ -191,7 +191,7 @@ export default function SubjectProfile() {
                         {edu.institution}
                       </p>
 
-                      <p className="text-[9px] text-[#3a3428] mt-1">
+                      <p className="text-[9px] text-[#6a6458] mt-1">
                         {edu.detail}
                       </p>
                     </div>
@@ -201,7 +201,7 @@ export default function SubjectProfile() {
                         {edu.highlight}
                       </p>
 
-                      <p className="text-[9px] text-[#4a4438]">
+                      <p className="text-[9px] text-[#6a6458]">
                         {edu.year}
                       </p>
                     </div>
@@ -213,7 +213,7 @@ export default function SubjectProfile() {
 
           {/* Skill threat assessment */}
           <div className="border border-[#2a2720] bg-[#121109] p-4">
-            <p className="text-[9px] tracking-[3px] text-[#4a4438] uppercase mb-4">
+            <p className="text-[9px] tracking-[3px] text-[#6a6458] uppercase mb-4">
               Threat Assessment — Skills
             </p>
 
@@ -227,7 +227,7 @@ export default function SubjectProfile() {
 
                 return (
                   <div key={cat}>
-                    <p className="text-[8px] tracking-[2px] text-[#3a3428] uppercase mb-2">
+                    <p className="text-[8px] tracking-[2px] text-[#6a6458] uppercase mb-2">
                       {cat}
                     </p>
 
@@ -250,7 +250,7 @@ export default function SubjectProfile() {
                             />
                           </div>
 
-                          <span className="text-[9px] text-[#3a3428] w-6 text-right">
+                          <span className="text-[9px] text-[#6a6458] w-6 text-right">
                             {skill.level}
                           </span>
                         </div>
